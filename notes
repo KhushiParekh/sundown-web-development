@@ -1,0 +1,51 @@
+extentions{
+    wappalyzer
+    font finder
+    colourzilla
+
+}
+
+if the font is not getting applied even after writting correct name{
+    add the downloaded font to your folder then in ss write 
+    @font-face{
+        font-family:(whatever name u want);
+        src: url(./ url of the file name in folder);
+
+    }
+}
+
+overfolw property: hidden->
+
+background-color ke badle-> {
+    background: linear-gradient(1st colour, to 2nd colour);
+}
+
+locomotive.js cdn{
+    gives smooth scrolling
+    paste it(scroll.js/scroll.css) in script/link tag just above our js script/ css link
+    for this to work do not assingn height: ,width: to the wrapper class joh yaha #main hai;;
+    alternative: lenis
+}
+
+pixi JS{
+    PixiJS is a rendering library that will allow you to create rich, interactive graphics and 
+    cross-platform applications and games without having to dive into the WebGL API or deal with browser 
+    and device compatibility.
+}
+
+GSAP{
+    GSAP is a framework-agnostic JavaScript animation library
+    that turns developers into animation superheroes
+}
+
+favicon{
+    favicon.io
+    favicon.ico
+}
+
+white-space: nowrap;{
+    brings the children just after the privious one without leaving any space..
+    .when you have h=given the children display:inline-block
+}
+
+page3 element part mastaaa
