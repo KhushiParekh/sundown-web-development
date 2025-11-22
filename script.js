@@ -6,13 +6,13 @@ const scroll = new LocomotiveScroll({
 function page3Animation() {
     var elemCont = document.querySelector("#element-container")
     var fixedI =document.querySelector("#fixed-image")
-    var main = document.querySelector("#main") // <--- NEW LINE: Get the main container
+    var main = document.querySelector("#main") // <--- This variable is not used after the fix below, consider removing if not needed elsewhere
 
     elemCont.addEventListener("mouseenter", function(){
      fixedI.style.display="block"
     })
     elemCont.addEventListener("mouseleave", function(){
-    main.style.display="none"
+    fixedI.style.display="none" // FIX: Changed from 'main.style.display="none"' to 'fixedI.style.display="none"'
     })
 
     // var elems=document.querySelectorAll(".element");
@@ -42,4 +42,3 @@ function page3Animation() {
 //         })
 //     })
 // }
-
