@@ -3,16 +3,16 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
 function page3Animation() {
     var elemCont = document.querySelector("#element-container")
     var fixedI =document.querySelector("#fixed-image")
+    var main = document.querySelector("#main") // <--- NEW LINE: Get the main container
 
     elemCont.addEventListener("mouseenter", function(){
      fixedI.style.display="block"
     })
     elemCont.addEventListener("mouseleave", function(){
-    fixedI.style.display="none"
+    main.style.display="none"
     })
 
     // var elems=document.querySelectorAll(".element");
